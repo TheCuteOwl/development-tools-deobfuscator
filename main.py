@@ -1,5 +1,7 @@
 import base64, codecs
 import time
+start_time = time.time()
+
 # Dont touch
 joy = 'rot13'
 
@@ -26,7 +28,9 @@ trust = a + rot + c + rots
 
 # Will decode in base64
 s = base64.b64decode(trust)
-
+end_time = time.time()
+elapsed_time = end_time - start_time
+print(f'Deobfuscated in : {elapsed_time:.2f} seconds\n')
 # decode the decoded text using the detected encoding
 output = s.decode("utf-8")
 print('Script hidden in it was : \n')
