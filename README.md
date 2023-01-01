@@ -30,6 +30,18 @@
  * Like the obfuscated stuff in my program will give you print('ur sexy')
  
  
+ ** OLD VERSION IF PROBLEM **
+ 
+ * Modify the program with any IDE : Notepad, Notepad++, VScode or other
+ 
+ modify
+   `magic = 'cHJpbn'`
+`love = 'DbW3Il'`
+`god = 'IHNleH'`
+`destiny = 'xaXD=='
+
+with your  obfuscated script and start main.py
+ 
 <br><br>
   
   -----
