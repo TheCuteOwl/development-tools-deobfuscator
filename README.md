@@ -16,13 +16,12 @@
 <br><br>
 
 * How to use it :
-  * Edit the file with any IDE (notepad, VSCODE, notepad++)
-  * Now modify 
+  * Open obfuscated.txt and replace everything with the obfuscated script you want to deobfuscate
+  * You need to modify this 
   `magic = 'cHJpbn'`
 `love = 'DbW3Il'`
 `god = 'IHNleH'`
-`destiny = 'xaXD=='`
- * With your obfuscated code **DONT TOUCH TO JOY**
+`destiny = 'xaXD=='`  With your script
  
  * Now launch main.py 
  
