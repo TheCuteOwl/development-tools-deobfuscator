@@ -1,0 +1,4 @@
+magic = 'cHJpbn'
+love = 'DbW3Il'
+god = 'IHNleH'
+destiny = 'xaXD=='
