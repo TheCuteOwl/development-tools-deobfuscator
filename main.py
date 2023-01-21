@@ -7,17 +7,12 @@ joy = 'rot13'
 
 print('Deobfuscation Starting....')
 
-# It will open obfuscated.txt and check everyline so magic love god and destiny
-with open('obfuscated.txt', 'r') as file:
-    first_line = file.readline()
-    second = file.readline()
-    third = file.readline()
-    fourth = file.readline()
+matches = re.findall("'(.*?)'", text)
 
-    a = first_line[9:-2]
-    b = second[8:-2]
-    c = third[7:-2]
-    d = fourth[11:-1]
+with open('deobfuscated.txt', 'w') as f:
+    for match in matches:
+        f.write(match + '\n')
+
 
 # Will decode with rot13
 rot = codecs.decode(b, joy)
