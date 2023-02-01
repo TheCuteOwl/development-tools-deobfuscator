@@ -4,7 +4,7 @@
 
 
 ---
-* A simple deobfuscator for https://development-tools.net/python-obfuscator/
+* A simple deobfuscator for https://development-tools.net/python-obfuscator/ ;)
 
 * With this you will be able to :
   * Decompile and get the hidden code easily
